@@ -9,7 +9,7 @@ def get_user_login():
 
 
 def get_user_password():
-    return getpass.win_getpass(prompt="Please enter your VK password : ")
+    return getpass.getpass(prompt="Please enter your VK password : ")
 
 
 def get_online_friends(login, password):
